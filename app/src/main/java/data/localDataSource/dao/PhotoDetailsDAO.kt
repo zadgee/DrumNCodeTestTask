@@ -5,17 +5,17 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import data.localDataSource.model.PhotoDetailsEntity
+import domain.entities.PhotoDetailsEntity
 
 
 @Dao
 interface PhotoDetailsDAO {
 
      @Insert(onConflict = OnConflictStrategy.REPLACE)
-     suspend fun savePhotoDetails(photoDetails:PhotoDetailsEntity)
+     suspend fun savePhotoDetails(photoDetails: PhotoDetailsEntity)
 
      @Update(onConflict = OnConflictStrategy.REPLACE)
-     suspend fun updatePhotoDetails(photoDetails:PhotoDetailsEntity)
+     suspend fun updatePhotoDetails(photoDetails: PhotoDetailsEntity)
 
      @Query(
         "SELECT * FROM PHOTO_DETAILS_TABLE WHERE retrievedPhotoId = :photoId"
@@ -25,7 +25,7 @@ interface PhotoDetailsDAO {
      ): PhotoDetailsEntity
 
      @Delete
-     suspend fun deletePhotoDetails(photoDetails:PhotoDetailsEntity?)
+     suspend fun deletePhotoDetails(photoDetails: PhotoDetailsEntity?)
 
 
 }

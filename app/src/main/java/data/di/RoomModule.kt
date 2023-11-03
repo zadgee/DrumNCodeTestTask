@@ -9,10 +9,10 @@ import dagger.hilt.components.SingletonComponent
 import data.localDataSource.dao.PhotoDetailsDAO
 import data.localDataSource.dao.RecentPhotosDAO
 import data.localDataSource.db.PhotoAndDetailsDataBase
-import data.localDataSource.repo.PhotoDetailsRepository
-import data.localDataSource.repo.PhotoDetailsRepositoryImpl
-import data.localDataSource.repo.RecentPhotoRepository
-import data.localDataSource.repo.RecentPhotoRepositoryImpl
+import domain.repository.PhotoDetailsRepository
+import data.localDataSource.repositoryImpl.PhotoDetailsRepositoryImpl
+import domain.repository.RecentPhotoRepository
+import data.localDataSource.repositoryImpl.RecentPhotoRepositoryImpl
 import javax.inject.Singleton
 
 @Module

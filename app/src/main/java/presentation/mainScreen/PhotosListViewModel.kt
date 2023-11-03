@@ -3,7 +3,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import data.event.RetrieveRecentPhotosInfoEvent
-import data.localDataSource.model.RecentPhotoBasicInfoEntity
+import domain.entities.RecentPhotoBasicInfoEntity
 import domain.usecases.DeletePhotosListFromDBUseCase
 import domain.usecases.GetAllPhotosFromDBUseCase
 import domain.usecases.RetrieveRecentPhotosInfoUseCase
@@ -12,7 +12,6 @@ import domain.usecases.UpdateListWithPhotosUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import presentation.mainScreen.state.GetPhotosFromInternetState
 import javax.inject.Inject

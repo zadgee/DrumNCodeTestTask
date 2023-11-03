@@ -1,6 +1,6 @@
 package data.remoteDataSource.api
-import data.remoteDataSource.model.DetailedPhotoInfo
-import data.remoteDataSource.model.RecentPhotoIdListModel
+import domain.entities.DetailedPhotoInfo
+import domain.entities.RecentPhotoIdListModel
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

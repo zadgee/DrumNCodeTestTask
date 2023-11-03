@@ -1,7 +1,8 @@
-package data.localDataSource.repo
+package data.localDataSource.repositoryImpl
 import android.util.Log
 import data.localDataSource.dao.RecentPhotosDAO
-import data.localDataSource.model.RecentPhotoBasicInfoEntity
+import domain.entities.RecentPhotoBasicInfoEntity
+import domain.repository.RecentPhotoRepository
 import javax.inject.Inject
 
 class RecentPhotoRepositoryImpl @Inject constructor(

@@ -2,7 +2,7 @@ package data.localDataSource.converters
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson
-import data.remoteDataSource.model.DetailedPhotoInfoModel
+import domain.entities.DetailedPhotoInfoModel
 
 
 private val gson = Gson()
@@ -19,7 +19,7 @@ class DetailedPhotoInfoModelConverter {
     @TypeConverter
     fun detailedPhotoInfoModelFromJson(
         json:String
-    ):DetailedPhotoInfoModel{
+    ): DetailedPhotoInfoModel {
         return gson.fromJson(json, DetailedPhotoInfoModel::class.java)
     }
 

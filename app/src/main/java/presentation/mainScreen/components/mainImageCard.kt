@@ -14,7 +14,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.testtaskdrumncode.ui.theme.MyColors
-import data.remoteDataSource.model.IdList
+import domain.entities.IdList
 
 @Composable
 fun MainScreenCardModel(

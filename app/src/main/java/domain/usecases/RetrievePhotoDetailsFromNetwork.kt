@@ -1,6 +1,6 @@
 package domain.usecases
-import data.remoteDataSource.model.DetailedPhotoInfo
-import data.remoteDataSource.repository.RecentPhotosInternetRepository
+import domain.entities.DetailedPhotoInfo
+import domain.repository.RecentPhotosInternetRepository
 import retrofit2.Response
 import javax.inject.Inject
 

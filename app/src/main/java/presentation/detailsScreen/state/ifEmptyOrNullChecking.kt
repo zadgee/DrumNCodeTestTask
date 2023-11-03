@@ -1,6 +1,6 @@
 package presentation.detailsScreen.state
 
-import data.remoteDataSource.model.RecentPhotoIdModel
+import domain.entities.RecentPhotoIdModel
 
 
 object EmptyOrNullChecking{

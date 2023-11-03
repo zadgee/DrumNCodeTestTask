@@ -1,10 +1,10 @@
-package data.remoteDataSource.model
+package domain.entities
 
 import com.google.gson.annotations.SerializedName
 
 data class RecentPhotoIdListModel(
     @SerializedName("photos")
-    val photos:RecentPhotoIdModel
+    val photos: RecentPhotoIdModel
 )
 
 data class RecentPhotoIdModel(

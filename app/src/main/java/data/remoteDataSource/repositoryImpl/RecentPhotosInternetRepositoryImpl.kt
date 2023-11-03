@@ -1,7 +1,8 @@
-package data.remoteDataSource.repository
+package data.remoteDataSource.repositoryImpl
 import data.event.RetrieveRecentPhotosInfoEvent
 import data.remoteDataSource.api.FlickrAPI
-import data.remoteDataSource.model.DetailedPhotoInfo
+import domain.entities.DetailedPhotoInfo
+import domain.repository.RecentPhotosInternetRepository
 import retrofit2.Response
 import javax.inject.Inject
 

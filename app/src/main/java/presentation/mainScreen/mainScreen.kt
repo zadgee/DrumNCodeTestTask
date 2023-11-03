@@ -1,6 +1,6 @@
 package presentation.mainScreen
 import androidx.compose.runtime.Composable
-import data.remoteDataSource.model.RecentPhotoIdModel
+import domain.entities.RecentPhotoIdModel
 
 @Composable
 fun MainScreen(

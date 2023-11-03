@@ -5,8 +5,8 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import data.remoteDataSource.api.FlickrAPI
-import data.remoteDataSource.repository.RecentPhotosInternetRepository
-import data.remoteDataSource.repository.RecentPhotosInternetRepositoryImpl
+import domain.repository.RecentPhotosInternetRepository
+import data.remoteDataSource.repositoryImpl.RecentPhotosInternetRepositoryImpl
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

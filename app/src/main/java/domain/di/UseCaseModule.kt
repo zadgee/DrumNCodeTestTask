@@ -3,9 +3,9 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import data.localDataSource.repo.PhotoDetailsRepository
-import data.localDataSource.repo.RecentPhotoRepository
-import data.remoteDataSource.repository.RecentPhotosInternetRepository
+import domain.repository.PhotoDetailsRepository
+import domain.repository.RecentPhotoRepository
+import domain.repository.RecentPhotosInternetRepository
 import domain.usecases.DeletePhotoDetailsUseCase
 import domain.usecases.DeletePhotosListFromDBUseCase
 import domain.usecases.GetAllPhotosFromDBUseCase

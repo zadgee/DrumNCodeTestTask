@@ -1,7 +1,7 @@
-package data.localDataSource.model
+package domain.entities
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import data.remoteDataSource.model.DetailedPhotoInfoModel
+import domain.entities.DetailedPhotoInfoModel
 
 @Entity(
     tableName = "PHOTO_DETAILS_TABLE",

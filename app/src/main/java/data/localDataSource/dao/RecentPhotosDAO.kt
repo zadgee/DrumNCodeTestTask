@@ -5,7 +5,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import data.localDataSource.model.RecentPhotoBasicInfoEntity
+import domain.entities.RecentPhotoBasicInfoEntity
 
 @Dao
 interface RecentPhotosDAO{
@@ -18,9 +18,9 @@ interface RecentPhotosDAO{
 
 
     @Update(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun updateListWithPhotos(recentPhotoBasicInfoEntity:RecentPhotoBasicInfoEntity)
+    suspend fun updateListWithPhotos(recentPhotoBasicInfoEntity: RecentPhotoBasicInfoEntity)
 
     @Delete
-    suspend fun deleteAllPhotos(recentPhotoBasicInfoEntity:RecentPhotoBasicInfoEntity)
+    suspend fun deleteAllPhotos(recentPhotoBasicInfoEntity: RecentPhotoBasicInfoEntity)
 
 }

@@ -1,5 +1,5 @@
-package data.localDataSource.repo
-import data.localDataSource.model.RecentPhotoBasicInfoEntity
+package domain.repository
+import domain.entities.RecentPhotoBasicInfoEntity
 
 interface RecentPhotoRepository{
     suspend fun saveListWithPhotos(recentPhotoBasicInfoEntity: RecentPhotoBasicInfoEntity)

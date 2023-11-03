@@ -1,8 +1,8 @@
 package presentation.mainScreen.state
 
-import data.localDataSource.model.RecentPhotoBasicInfoEntity
+import domain.entities.RecentPhotoBasicInfoEntity
 
 data class GetAllPhotosFromDBState(
     val error:String? = null,
-    val success:RecentPhotoBasicInfoEntity? = null
+    val success: RecentPhotoBasicInfoEntity? = null
 )

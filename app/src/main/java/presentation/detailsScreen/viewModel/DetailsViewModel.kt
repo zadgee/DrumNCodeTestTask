@@ -3,8 +3,8 @@ import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import data.localDataSource.model.PhotoDetailsEntity
-import data.remoteDataSource.model.DetailedPhotoInfo
+import domain.entities.PhotoDetailsEntity
+import domain.entities.DetailedPhotoInfo
 import domain.usecases.DeletePhotoDetailsUseCase
 import domain.usecases.GetPhotoDetailsByPhotoId
 import domain.usecases.RetrievePhotoDetailsFromNetwork

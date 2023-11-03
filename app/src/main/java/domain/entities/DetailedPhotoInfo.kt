@@ -1,17 +1,17 @@
-package data.remoteDataSource.model
+package domain.entities
 
 import com.google.gson.annotations.SerializedName
 
 data class DetailedPhotoInfo(
-    val photo:DetailedPhotoInfoModel
+    val photo: DetailedPhotoInfoModel
 )
 data class DetailedPhotoInfoModel(
     @SerializedName("secret")
     val secret:String,
     @SerializedName("owner")
-    val ownerModel:OwnerModel,
+    val ownerModel: OwnerModel,
     @SerializedName("title")
-    val titleModel:TitleModel
+    val titleModel: TitleModel
 )
 
 data class TitleModel(

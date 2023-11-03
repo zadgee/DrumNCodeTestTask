@@ -6,8 +6,8 @@ import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
-import data.localDataSource.model.RecentPhotoBasicInfoEntity
-import data.remoteDataSource.model.RecentPhotoIdModel
+import domain.entities.RecentPhotoBasicInfoEntity
+import domain.entities.RecentPhotoIdModel
 import domain.usecases.DownLoadPhotoFromInternetUseCase
 import kotlinx.coroutines.delay
 import presentation.mainScreen.components.MainScreenCardModel

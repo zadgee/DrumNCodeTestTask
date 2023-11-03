@@ -1,6 +1,6 @@
 package data.event
 
-import data.remoteDataSource.model.RecentPhotoIdListModel
+import domain.entities.RecentPhotoIdListModel
 import retrofit2.Response
 
 sealed class RetrieveRecentPhotosInfoEvent{

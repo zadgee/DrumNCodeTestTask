@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import data.remoteDataSource.model.DetailedPhotoInfoModel
+import domain.entities.DetailedPhotoInfoModel
 
 @Composable
 fun detailedPhotoInfoModelState(

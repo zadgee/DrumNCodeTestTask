@@ -1,6 +1,6 @@
-package data.remoteDataSource.repository
+package domain.repository
 import data.event.RetrieveRecentPhotosInfoEvent
-import data.remoteDataSource.model.DetailedPhotoInfo
+import domain.entities.DetailedPhotoInfo
 import retrofit2.Response
 
 

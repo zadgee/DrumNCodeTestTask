@@ -1,7 +1,7 @@
-package data.localDataSource.model
+package domain.entities
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import data.remoteDataSource.model.RecentPhotoIdModel
+import domain.entities.RecentPhotoIdModel
 
 
 @Entity(
@@ -9,5 +9,5 @@ import data.remoteDataSource.model.RecentPhotoIdModel
     )
 data class RecentPhotoBasicInfoEntity(
       @PrimaryKey(autoGenerate = false)
-      val recentPhotoIdModel:RecentPhotoIdModel
+      val recentPhotoIdModel: RecentPhotoIdModel
 )

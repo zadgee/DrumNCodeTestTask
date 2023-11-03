@@ -1,7 +1,7 @@
 package domain.usecases
 
 import data.event.RetrieveRecentPhotosInfoEvent
-import data.remoteDataSource.repository.RecentPhotosInternetRepository
+import domain.repository.RecentPhotosInternetRepository
 import javax.inject.Inject
 
 class RetrieveRecentPhotosInfoUseCase @Inject constructor(

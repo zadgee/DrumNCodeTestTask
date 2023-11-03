@@ -1,7 +1,7 @@
 package domain.usecases
 
-import data.localDataSource.model.RecentPhotoBasicInfoEntity
-import data.localDataSource.repo.RecentPhotoRepository
+import domain.entities.RecentPhotoBasicInfoEntity
+import domain.repository.RecentPhotoRepository
 import javax.inject.Inject
 
 class UpdateListWithPhotosUseCase @Inject constructor(

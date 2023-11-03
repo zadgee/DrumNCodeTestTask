@@ -2,7 +2,7 @@ package presentation.detailsScreen.viewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import data.remoteDataSource.model.RecentPhotoIdModel
+import domain.entities.RecentPhotoIdModel
 import domain.usecases.DownLoadPhotoFromInternetUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

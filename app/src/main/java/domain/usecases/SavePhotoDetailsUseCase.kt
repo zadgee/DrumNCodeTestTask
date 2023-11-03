@@ -1,6 +1,6 @@
 package domain.usecases
-import data.localDataSource.model.PhotoDetailsEntity
-import data.localDataSource.repo.PhotoDetailsRepository
+import domain.entities.PhotoDetailsEntity
+import domain.repository.PhotoDetailsRepository
 import javax.inject.Inject
 
 class SavePhotoDetailsUseCase @Inject constructor(
